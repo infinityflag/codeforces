@@ -68,17 +68,22 @@ int main(){
         }
         for(int i=0;i<n;i++){
             sort(a[i], a[i]+m);
-        }
+        }//i행에 있는 가장 작은 값을 서로 다른 열에 배치하는 방법
         for(int k=n; k>=1; k--){
             x = 1;
             for(int i=0;i<n;i++){
                 if(a[i][1] < a[x][1]){
                     x = i;
                 }
-                b[x][k] = a[x][1];
+                b[x][k] = a[x][i];
             }
+            for(int i=0;i<n;i++){
+                
+            }
+            
+
         }
-        
+
     }
 }
 
