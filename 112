@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+
+void solve(int x1, int x2, int x3, int x4){
+	if(max(x1, x2)<=min(x3,x4) || max(x3,x4) <= min(x1, x2)){
+		for(int dx = 0; dx < n; dx++){
+			for(int dy = 0; dy < n; dy++){
+				if(w + dx <= W && ){
+					min(max(0,w-x1), max(0,x2-(W-w)))
+				}
+			}
+		}
+		
+	}
+}
+
+
+
+int main() {
+	// your code goes here
+	int t;
+	cin >> t;
+	while(t--){
+		int W,H;
+		cin >> W >> H;
+	}
+	return 0;
+}
