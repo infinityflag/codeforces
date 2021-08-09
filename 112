@@ -1,18 +1,23 @@
 #include <iostream>
 using namespace std;
 
+int W,H;
+int w,h;
+int x1, y1, x2,y2;
 
-void solve(int x1, int x2, int x3, int x4){
-	if(max(x1, x2)<=min(x3,x4) || max(x3,x4) <= min(x1, x2)){
-		for(int dx = 0; dx < n; dx++){
-			for(int dy = 0; dy < n; dy++){
-				if(w + dx <= W && ){
-					min(max(0,w-x1), max(0,x2-(W-w)))
-				}
-			}
-		}
+void solve(){
+	if(x2-x1 + w <= W){
+		ans = min(ans, max(0, w-x1));
+		ans = min(ans, max(0, x2-(W-w));
+	}
+	if(y2-y2 + h <= H){
+		ans = min(ans, max(0,h-y1));  
+		ans = min(ans, max(0,y2-(H-h));
+	}
+	if(ans == INF){
 		
 	}
+	
 }
 
 
